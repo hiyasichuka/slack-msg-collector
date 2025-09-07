@@ -22,3 +22,20 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+
+`slack-msg-collector.ipynb` を開き、`channel id` および取得開始から終了日時を設定する。
+
+```
+# --- 設定 ---
+CHANNELS = [
+    "C", # channel id
+]
+
+START_DATE = datetime.datetime(2025, 9, 1, 0, 0, 0, tzinfo=JST)
+END_DATE   = datetime.datetime(2025, 9, 7, 23, 59, 59, tzinfo=JST)
+```
+
+Jupyterを上から順番に実行していく。
+
+以上。
