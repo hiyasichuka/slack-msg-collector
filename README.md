@@ -6,13 +6,13 @@
 # OAuth Scope
 channels:history
 channels:read
-emoji:read
-groups:history
-reactions:read
-users:read
 ```
 
+![UserTokenScope](/imgs/user-token-scope.png "サンプル")
+
+
 OAuth & Permissions -> User OAuth Token から取得したものを.env に設定する。
+
 
 # 利用手順
 
